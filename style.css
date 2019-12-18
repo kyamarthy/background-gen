@@ -1,0 +1,33 @@
+/*
+selector {
+	property: value;
+}
+*/
+
+body {
+	background-image: url(img2.jpg);
+	background-size: cover;
+}
+
+h2 {
+	color: red;
+	cursor: pointer;
+}
+
+p {
+	color: blue;
+	color: #AA4139;
+	border:5px solid rgb(255, 176, 170);
+	cursor: not-allowed;
+}
+
+/*Cascading effect*/
+h2 {
+	color: green;
+	border: 5px solid rgba(100, 100, 100, 0.5);
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
