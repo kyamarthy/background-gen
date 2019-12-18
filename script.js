@@ -11,6 +11,9 @@ class Person {
 	getDescription(){
 		return `I am ${this.name} and I am ${this.age} old.`;
 	}
+	changeAge(age){
+		this.age = age;
+	}
 }
 
 
